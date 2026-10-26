@@ -1,0 +1,107 @@
+<doctype html>
+    <html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Formulario</title>
+    </head>
+
+    <body>
+        <div>
+            <h1>Formulario de Alta de usuario</h1>
+                <form action="http://172.30.18.224.3000/" enctype="text/plain" method="post">
+                    <table border="1" cellpadding="5" cellspacing="0">
+                        <tr>
+                            <td colspan="2">
+                                <label for="id">Identificador de alta de nuevo usuario</label>
+                                <input id="id" type="text" name="id" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="nombre">Nombre:</label>
+                                <input id="nombre" type="text" name="nombre" required>
+                            </td>
+
+                            <td>
+                                <label for="apellido">Apellido:</label>
+                                <input id="apellido" type="text" name="apellido" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="password">Contraseña:</label>
+                                <input id="password" type="password" name="password" required>
+                            </td>
+                            <td>
+                                <label for="password2">Repetir contraseña:</label>
+                                <input id="password2" type="password" name="password2" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <label for="email">Email:</label>
+                                <input id="email" type="email" name="email" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="sx">Sexo:</label>
+                            </td>
+                            <td>
+                                <input id="sx" type="radio" name="sexo">Hombre</input>
+                                <input id="sx" type="radio" name="sexo">Mujer</input>
+                            </td>
+                        </tr>
+                            <td>
+                                <label for="aficiones">Aficiones:</label>
+                            </td>
+                            <td>
+                                <input id="aficiones" type="checkbox" name="aficiones">Deporte</input><br>
+                                <input id="aficiones" type="checkbox" name="aficiones">Lectura</input><br>
+                                <input id="aficiones" type="checkbox" name="aficiones">Cine</input><br>
+                            </td>
+                        <tr>
+                            <td>
+                                <label for="pais">Pais:</label>
+                            </td>
+                            <td>
+                                <select name="pais" id="pais">
+                                    <option value="ES">España</option>
+                                    <option value="FR">Francia</option>
+                                    <option value="IT">Italia</option>
+                                    <option value="IN">Inglaterra</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="foto">Subir foto</label>
+                            </td>
+                            <td>
+                                <input id="foto" type="file" name="foro">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="comment">Comnetarios personales</label>
+                            </td>
+                            <td>
+                                <textarea id="comment" type="text" name="comment"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="btn"> 
+                                <input id="reset" type="reset" value="Resetear"></input>
+                            </td>
+                            <td class="btn">
+                                <input id="env" type="submit" value="Enviar"></input>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+        </div>
+    </body>
+</html>

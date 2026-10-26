@@ -1,0 +1,19 @@
+div {
+    width: 35%;
+    margin: auto;
+    padding: 2%;
+    background-color: rgb(231, 137, 100);
+
+}
+
+table{
+    margin: auto;
+}
+
+.btn{
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+}
