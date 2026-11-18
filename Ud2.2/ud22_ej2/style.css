@@ -1,0 +1,5 @@
+ol{
+    list-style-image: url(img/meme.png);
+    list-style-position: inside ;
+}
+/*La diferencia es que si lo alineas inside se ve todo dentro de la pagina y outside fuera */
