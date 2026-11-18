@@ -1,0 +1,16 @@
+#corp {
+    color: blue;
+}
+
+.corp {
+    color: red;
+}
+
+
+a[target] {
+    color: green;
+}
+
+.parr {
+    color: aqua;
+}

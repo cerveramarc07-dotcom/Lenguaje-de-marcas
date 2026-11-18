@@ -1,0 +1,22 @@
+*{
+   font-style: arial;
+}
+h1{
+    color: red;
+}
+
+h2{
+    color: blue;
+}
+
+p{
+    text-align: justify;
+    margin-left: auto;
+    color: chartreuse;
+}
+
+
+
+/*Cuando pones el * abajo o arriba, el resultado en este caso no cambia pero normalmente se 
+pondria el *{} abajo ya que si hay dos reglas que afectan a la misma parte de texto en diferentes 
+aprtados, se aplicara la que este mas abajo */
