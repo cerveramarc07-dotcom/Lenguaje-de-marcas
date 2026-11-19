@@ -1,0 +1,36 @@
+.conteedor{
+    border: 10px solid;
+    width: 300px;
+    position: relative;
+}
+
+.cuadro{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+
+}
+
+.cuadroc1{
+background-color: aqua;
+left: 50px;
+z-index: 2;
+position: relative;
+
+}
+
+.cuadroc2{
+background-color: rgb(0, 255, 106);
+position: relative;
+top: -40px;
+left: 50px;
+z-index: 1;
+}
+
+.cuadroc3{
+background-color: rgb(255, 208, 0);
+position: absolute;
+right: 0px;
+
+}
+

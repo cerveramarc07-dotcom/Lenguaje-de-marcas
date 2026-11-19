@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: #234e70;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 1rem;
+    list-style: none;
+}
+
+.menu a {
+    color: white;
+}
+
+.subir {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: .7rem 1rem;
+    border-radius: .5rem;
+    color: white;
+    background: #234e70;
+}
