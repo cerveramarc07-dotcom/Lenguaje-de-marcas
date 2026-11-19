@@ -1,0 +1,42 @@
+p::first-letter {
+    color: #9b4d2d;
+    font-size: 2.4em;
+}
+
+p::first-line {
+    font-variant: small-caps;
+}
+
+::selection {
+    color: #102b1b;
+    background: #c9ef8a;
+}
+
+ul {
+    list-style: none;
+}
+
+li::before {
+    content: "✔ ";
+}
+
+a[target="_blank"]::after {
+    content: " ↗";
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 4rem;
+    height: 4px;
+    background: #8ab56d;
+}
+
+[data-ayuda] {
+    position: relative;
+}
+
+[data-ayuda]:hover::after {
+    content: attr(data-ayuda);
+    position: absolute;
+}

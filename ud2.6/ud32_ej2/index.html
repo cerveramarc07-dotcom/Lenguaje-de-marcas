@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="contenedor">
+      <h1>Alta de usuario</h1>
+      <form>
+        <label for="usuario">Identificador de usuario</label>
+        <input id="usuario" name="usuario" value="alumno2026" readonly>
+        <label for="nombre">Nombre completo</label>
+        <input id="nombre" name="nombre" autocomplete="name" required>
+        <label for="email">Correo electrónico</label>
+        <input id="email" name="email" type="email" autocomplete="email"
+          required>
+        <label for="contrasena">Contraseña</label>
+        <input id="contrasena" name="contrasena" type="password" required>
+        <fieldset>
+            <legend>Sexo</legend>
+            <input id="sexo-mujer" type="radio" name="sexo" value="mujer">
+            <label class="opcion" for="sexo-mujer">Mujer</label>
+            <input id="sexo-hombre" type="radio" name="sexo" value="hombre">
+             <label class="opcion" for="sexo-hombre">Hombre</label>
+            <input id="sexo-otro" type="radio" name="sexo" value="otro">
+            <label class="opcion" for="sexo-otro">Otro / prefiero no
+            decirlo</label>
+        </fieldset>
+        <fieldset><legend>Aficiones</legend>
+          <input id="aficion-lectura" type="checkbox" name="aficiones"
+            value="lectura">
+          <label class="opcion" for="aficion-lectura">Lectura</label>
+          <input id="aficion-musica" type="checkbox" name="aficiones"
+            value="musica">
+          <label class="opcion" for="aficion-musica">Música</label>
+          <input id="aficion-deporte" type="checkbox" name="aficiones"
+            value="deporte">
+          <label class="opcion" for="aficion-deporte">Deporte</label>
+        </fieldset>
+        <label for="promo">Código promocional</label><input id="promo"
+          name="promo" value="No disponible" disabled>
+        <button type="submit">Crear cuenta</button>
+      </form>
+    </main>
+</body>
+</html>
